@@ -8,13 +8,13 @@ You will be building a clone of Frogger, where the purpose is to move the player
 
 You may use the art provided, or your own.  Additionally, you do not need to make your game concern frogs and traffic - as long as the core game mechanic is the same, feel free to explore.
 
-1. Your game should involve an animated player sprite with at least five frames of animation (10 points).
+-1. Your game should involve an animated player sprite with at least five frames of animation (10 points).
 
-2. Movement for the player should proceed in fixed increments, i.e. 'hopping', rather than 'walking'. Pushing the forward button should start a hop, which is then interpolated over several frames before a landing.  While hopping, the player cannot change the action their sprite is taking (10 points).
+-2. Movement for the player should proceed in fixed increments, i.e. 'hopping', rather than 'walking'. Pushing the forward button should start a hop, which is then interpolated over several frames before a landing.  While hopping, the player cannot change the action their sprite is taking (10 points).
 
-3. Multiple obstacles appear in the game, and move vertically.  Obstacles are implemented as classes in their own modules (10 points).
+-3. Multiple obstacles appear in the game, and move vertically.  Obstacles are implemented as classes in their own modules (10 points).
 
-4. A background appropriate to the game is provided, with clear cues to where obstacles will appear (i.e. cars appear on a road, logs in a river) (10 points).
+-4. A background appropriate to the game is provided, with clear cues to where obstacles will appear (i.e. cars appear on a road, logs in a river) (10 points).
 
 5. Some obstacles, i.e. cars, kill the player sprite when collided with (10 points).
 
@@ -24,9 +24,9 @@ You may use the art provided, or your own.  Additionally, you do not need to mak
 
 8. The player's score and level is displayed on the game screen in some fashion - either through the _drawText()_ method or via an HTML element overlayed on the game screen (10 points).
 
-9. Instructions on how to play the game appear in some easily-accessible fashion, i.e. on the page, or over the game screen accessed with the _esc_ key (10 points).
+-9. Instructions on how to play the game appear in some easily-accessible fashion, i.e. on the page, or over the game screen accessed with the _esc_ key (10 points).
 
-10. Reaching the far side of the screen awards the player with points, advances the level, and restarts the player at the initial point with the obstacles moving faster (10 points).
+-10. Reaching the far side of the screen awards the player with points, advances the level, and restarts the player at the initial point with the obstacles moving faster (10 points).
 
 ### Extra Credit
 
